@@ -1,0 +1,29 @@
+.contact-form{
+    padding: 5% 0px;
+    display: flex;
+   justify-content: center;
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        gap: 10px;
+        input{
+            
+            padding: 10px 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            font-size: 18px;
+            
+        }
+        
+        button{
+            display: flex;
+            padding: 10px 0px;
+            text-align: center;
+            display: block;
+            flex-direction: row;
+            
+        }
+        
+    }
+}

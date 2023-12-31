@@ -1,0 +1,99 @@
+.top-bar{
+    font-size: 14px ;
+    background-color: #0063ad;
+    padding: 6px 0px;
+    .top-bar-container{
+        display: flex;
+        justify-content: space-between;
+        .top-bar-left{
+            display: flex;
+            align-items: center;
+            ul{
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                color: #fff;
+                li{
+                   display: flex;
+                   align-items: center;
+                   gap: 5px;
+                   color: #FFF;
+                    &:hover{
+                        color: #ffc221;
+                    }
+                   
+                    
+                    
+                }
+                
+            }
+
+        }
+       .top-bar-right{
+        display: flex;
+        gap: 1px;
+        a{
+            color: #fff;
+            background-color: #207ab6;
+            padding: 6px 18px;
+            &:first-child{
+                border-radius: 50px 0px 0px 50px;
+            }
+            &:last-child{
+                border-radius:  0px 50px 50px 0px ;
+            }
+           &:hover{
+                color:#ffc221;
+            }
+        }
+       }
+        
+    }
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header-left{
+        a{
+        img{
+            width: 150px;
+        }
+    }
+    }
+    .header-right{
+        ul{
+            display: flex;
+            align-items: center;
+            
+            li{
+                font-size: 12px;
+                padding: 0px 15px ;
+                
+              
+                a{
+                    text-transform: uppercase;
+                    font-weight:900;
+                     padding: 10px 15px ;
+                     transition: all 0.3s ease-in;
+                   
+                    &:hover{
+                        background-color: #0063ad;
+                        color: #fff;
+                        border-radius: 5px;
+
+
+                       
+                    }
+                    
+                }
+                .active{
+                        background-color: #0063ad;
+                        color: #fff;
+                        border-radius: 5px;
+                    }
+            }
+        }
+    }
+}
